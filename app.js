@@ -24,6 +24,7 @@ function mostrarAmigos() {
   for (let i = 0; i < amigos.length; i++) {
     listaAmigos.innerHTML += `<li>${amigos[i]}</li>`;
   }
+  console.log(amigos);
 }
 
 function sortearAmigo() {
@@ -33,5 +34,6 @@ function sortearAmigo() {
   } else {
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
     document.getElementById(  "resultado"   ).innerHTML = `El amigo sorteado es ${amigoSorteado}`;
-  }
+  console.log(amigoSorteado);
+   }
 }
