@@ -1,4 +1,4 @@
-<h1 align="center"> Amigo de Alura </h1>
+<h1 align="rigth"> Amigo de Alura </h1>
 
 ![](https://github.com/Gott95/Amigo-Secreto/blob/main/IMG%20README.jpg)
 
