@@ -1,6 +1,7 @@
 <h1 align="center"> Amigo de Alura </h1>
-![Amigo Secreto](https://github.com/user-attachments/assets/4d28d497-b014-4df5-a05a-7cd91d958bf0)
 
+
+![GitHub followers](https://img.shields.io/github/followers/Gott95?logoColor=%23008764&labelColor=%23008764)
 
 
 # Amigo Secreto
