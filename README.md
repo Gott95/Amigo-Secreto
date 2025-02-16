@@ -7,7 +7,7 @@
 
  *[Índice](#índice)
  
- *[Descripción del proyecto](#¿Listo para organizar un "Amigo Secreto" divertido y sin complicaciones? Esta aplicación web te permite crear sorteos de "Amigo Secreto" de forma rápida y sencilla. Los participantes ingresan sus nombres y la aplicación se encarga de asignar aleatoriamente a cada uno un amigo secreto al que deben regalar. ¡Ideal para fiestas, reuniones o simplemente para compartir un momento especial!)
+ *[¿Listo para organizar un "Amigo Secreto" divertido y sin complicaciones? Esta aplicación web te permite crear sorteos de "Amigo Secreto" de forma rápida y sencilla. Los participantes ingresan sus nombres y la aplicación se encarga de asignar aleatoriamente a cada uno un amigo secreto al que deben regalar. ¡Ideal para fiestas, reuniones o simplemente para compartir un momento especial!](#descripción-del-proyecto)
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
