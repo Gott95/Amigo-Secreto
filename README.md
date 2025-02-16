@@ -3,7 +3,7 @@
 
 
 ![GitHub followers](https://img.shields.io/github/followers/Gott95?logoColor=%23008764&labelColor=%23008764)
-
+ ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 
  
