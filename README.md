@@ -1,5 +1,6 @@
 <h1 align="center"> Amigo de Alura </h1>
-![IMG Alura](https://github.com/Gott95/Amigo-Secreto/blob/main/IMG%20README.jpg)
+
+![](https://github.com/Gott95/Amigo-Secreto/blob/main/IMG%20README.jpg)
 
 
 ![GitHub followers](https://img.shields.io/github/followers/Gott95?logoColor=%23008764&labelColor=%23008764)
