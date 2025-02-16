@@ -1,4 +1,4 @@
-<h1 align="rigth"> Amigo de Alura </h1>
+<h1 align="center"> Amigo de Alura </h1>
 
 ![](https://github.com/Gott95/Amigo-Secreto/blob/main/IMG%20README.jpg)
 
@@ -11,22 +11,19 @@
  *[Índice](#índice)
  
  *[Descripción del proyecto](#descripción-del-proyecto)
+ 
+ *[Contenido Utilizado](#contenido-utilizado)
+ 
+ *[Que hacer primero](#que-hacer-primero)
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+*[Características de la aplicación](#Características-de-la-aplicación)
 
-*[Acceso al proyecto](#acceso-proyecto)
+*[IDE utilizado](#IDE-utilizado)
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-*[Licencia](#licencia)
-
-*[Conclusión](#conclusión)
 
 
 ## Descripcion del proyecto
@@ -56,5 +53,5 @@ git clone https://github.com/Gott95/Amigo-Secreto
 ## IDE utilizado
 - Visual Studio Code
 
-## Lenguaje utilizado
+## Tecnología utilizadas
 - JavaScript
