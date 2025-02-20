@@ -59,6 +59,7 @@ git clone https://github.com/Gott95/Amigo-Secreto
 ## Características de la aplicación
 - Insertar nombres
 - Sortear nombres
+- Mostrar nombres
 
 ## Tecnología utilizadas
 - JavaScript
