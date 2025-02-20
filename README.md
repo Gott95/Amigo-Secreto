@@ -34,7 +34,7 @@
 - Pantalla inicial del juego
 
 ![](https://github.com/Gott95/Amigo-Secreto/blob/main/assets/cap/Go%203.jpg)
-- Se agregan los nombres, escribiendo en el campo de texto y dando click en el botón agregar
+- Se agregan los nombres, escribiendo en el campo de texto y dando click en el botón Añadir
   
 ![](https://github.com/Gott95/Amigo-Secreto/blob/main/assets/cap/Go%202.jpg)
 - Cuando se termina de agregar, se da click en Sortear amigo
