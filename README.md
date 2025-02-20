@@ -50,8 +50,7 @@ git clone https://github.com/Gott95/Amigo-Secreto
 - Insertar nombres
 - Sortear nombres
 
-## IDE utilizado
-- Visual Studio Code
-
 ## Tecnología utilizadas
 - JavaScript
+- HTML
+- CSS
