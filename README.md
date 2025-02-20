@@ -20,8 +20,6 @@
 
 *[Características de la aplicación](#Características-de-la-aplicación)
 
-*[IDE utilizado](#IDE-utilizado)
-
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
 
