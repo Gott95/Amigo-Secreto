@@ -49,9 +49,10 @@
 - Funciones
 - Variables
 
-## Que hacer primero
+> [!TIP]
+> ## Que hacer primero
 ```
-git clone https://github.com/Gott95/Amigo-Secreto
+> git clone https://github.com/Gott95/Amigo-Secreto
 
 ```
 
