@@ -9,19 +9,19 @@
 > [!NOTE]
 > ## Índice
 
- *[Índice](#índice)
+> [Índice](#índice)
  
- *[Descripción del proyecto](#descripción-del-proyecto)
+> [Descripción del proyecto](#descripción-del-proyecto)
  
- *[Contenido Utilizado](#contenido-utilizado)
+> [Contenido Utilizado](#contenido-utilizado)
  
- *[Que hacer primero](#que-hacer-primero)
+> [Que hacer primero](#que-hacer-primero)
 
-*[Estado del proyecto](#Estado-del-proyecto)
+> [Estado del proyecto](#Estado-del-proyecto)
 
-*[Características de la aplicación](#Características-de-la-aplicación)
+> [Características de la aplicación](#Características-de-la-aplicación)
 
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
+> [Tecnologías utilizadas](#tecnologías-utilizadas)
 
 
 > [!IMPORTANT]
