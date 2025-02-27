@@ -55,10 +55,10 @@
 
 > [!TIP]
 > ## Que hacer primero
-```
-> git clone https://github.com/Gott95/Amigo-Secreto
+> ```
+ git clone https://github.com/Gott95/Amigo-Secreto
 
-```
+> ```
 
 > [!WARNING]
 >## Estado del proyecto
