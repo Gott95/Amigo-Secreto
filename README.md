@@ -23,11 +23,9 @@
 
 > [Tecnologías utilizadas](#tecnologías-utilizadas)
 
->
-
-
->
->
+<br>
+<br>
+<br>
 
 > [!IMPORTANT]
 > ## Descripcion del proyecto
