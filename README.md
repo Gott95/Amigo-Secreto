@@ -58,7 +58,7 @@
 > ```
 > git clone https://github.com/Gott95/Amigo-Secreto
 > ```
-
+<br>
 > [!WARNING]
 >## Estado del proyecto
 > Terminado, pero admite mejoras
