@@ -14,6 +14,9 @@ function agregarAmigo() {
     return;
   } else {
     amigos.push(nombres);
+    document.getElementById(
+      "resultado"
+    ).innerHTML = "";
     document.getElementById("amigo").value = "";
     mostrarAmigos();
   }
@@ -38,7 +41,10 @@ function sortearAmigo() {
       "resultado"
     ).innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
     console.log(amigoSorteado);
+    amigos = [];
+    console.log(amigos);
   }
+
 }
 
 function limpiarLista() {
