@@ -62,8 +62,10 @@
 
 > [!WARNING]
 >## Estado del proyecto
-><p>Terminado, pero admite mejoras</p> 
+> Terminado, pero admite mejoras
+
 <br>
+
 ## Características de la aplicación
 - Insertar nombres
 - Sortear nombres
