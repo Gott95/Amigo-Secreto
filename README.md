@@ -51,6 +51,8 @@
 - Funciones
 - Variables
 
+<br>
+
 > [!TIP]
 > ## Que hacer primero
 ```
