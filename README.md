@@ -26,7 +26,8 @@
 
 > [!IMPORTANT]
 > ## Descripcion del proyecto
-¿Listo para organizar un "Amigo Secreto" divertido y sin complicaciones? Esta aplicación web te permite crear sorteos de "Amigo Secreto" de forma rápida y sencilla. Los participantes ingresan sus nombres y la aplicación se encarga de asignar aleatoriamente a cada uno un amigo secreto al que deben regalar. ¡Ideal para fiestas, reuniones o simplemente para compartir un momento especial!
+> ¿Listo para organizar un "Amigo Secreto" divertido y sin complicaciones? Esta aplicación web te permite crear sorteos de "Amigo >Secreto" de forma rápida y sencilla. Los participantes ingresan sus nombres y la aplicación se encarga de asignar aleatoriamente a cada >uno un amigo secreto al que deben regalar. ¡Ideal para fiestas, reuniones o simplemente para compartir un momento especial!
+
 - Este proyecto fue creado bajo la supervisión de [Alura Latam](https://www.aluracursos.com/ "Alura Latam")
 
 ![](https://github.com/Gott95/Amigo-Secreto/blob/main/assets/cap/Go.jpg)
