@@ -57,7 +57,6 @@
 > ## Que hacer primero
 > ```
 > git clone https://github.com/Gott95/Amigo-Secreto
-
 > ```
 
 > [!WARNING]
