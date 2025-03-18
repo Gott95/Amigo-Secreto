@@ -8,29 +8,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+            <div class = "img" >
+                <img class = "logo" src="assets/imagen.svg" alt="Imagen representativa de amigo secreto">
+            </div>
+            <div class="name-game">
+                <h1 class="main-title">Alura Lat<strong>Am </strong> </h1>
+                <h1 class="main-title-secreto">igo Secreto</h1>
+            </div>
+            
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite el nombre de sus amigos</h2>
+            <h2 class="section-title">Inserte los nombres<br>de los participantes</h2>
+            <h2 class="section-title1"></h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+                <button class="button-add" onclick="agregarAmigo()">
+                    <img class="icon-add" src="assets/add.png" alt="Ícono para agregar">
+                     </button>
             </div>
-           
+            <div class="container-count" id="container-count" onclick="mostrarLista()">
+                <h2 id="count" class="count"></h2>
+            </div>
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    <i class="bi bi-shuffle"></i>
+                    <!-- <img class="icon" src="assets/randomize.png" alt="Ícono para sortear"> -->
                     Sortear amigo
+                </button>
+                <button class="button-draw" onclick="reiniciar()" aria-label="Sortear amigo secreto">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <!-- <img class="icon" src="assets/randomize.png" alt="Ícono para sortear"> -->
+                    Reiniciar
                 </button>
             </div>
         </section>
