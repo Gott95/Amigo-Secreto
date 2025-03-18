@@ -294,15 +294,16 @@ button {
 
 
     .input-name {
-        border-radius: 25px 25px 0 0;
+        border-radius: 25px 0 0 0;
     }
 
     .input-wrapper {
-        margin-top: 3em;
+        margin-top: 2em;
     }
 
     .button-add {
-        border-radius: 25px 25px 0 0;
+        border-radius: 0 25px 0 0;
+        align-items: center;
     }
 
     .button-container {
