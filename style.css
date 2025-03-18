@@ -277,15 +277,28 @@ button {
 
     .section-title {
         font-size: 20px !important;
+        margin-top: 1em;
     }
 
     .input-section {
-        justify-content:start;
+        justify-content: stretch;
+        margin-bottom: 3em;
         padding: 10px;
+        height: auto; /* Cambia "2%" por "auto" para que el alto se ajuste automáticamente */
+        border-radius: 4em 4em 1em 1em;
     }
+
+    .container-count {
+        margin-top: 3em;
+    }
+
 
     .input-name {
         border-radius: 25px 25px 0 0;
+    }
+
+    .input-wrapper {
+        margin-top: 3em;
     }
 
     .button-add {
