@@ -264,3 +264,43 @@ button {
     background-color: var(--color-button-hover);
     color: var(--color-button);
 }
+
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 26px !important;
+    }
+
+    .main-title-secreto {
+        font-size: 16px !important;
+    }
+
+    .section-title {
+        font-size: 20px !important;
+    }
+
+    .input-section {
+        justify-content:start;
+        padding: 10px;
+    }
+
+    .input-name {
+        border-radius: 25px 25px 0 0;
+    }
+
+    .button-add {
+        border-radius: 25px 25px 0 0;
+    }
+
+    .button-container {
+        width: 100%;
+    }
+
+    .button-draw {
+        padding: 10px 20px;
+    }
+
+    .button-draw img {
+        margin-right: 20px;
+    }
+}
