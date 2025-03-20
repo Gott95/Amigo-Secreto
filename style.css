@@ -316,21 +316,29 @@ i {
         margin-top: 1em;
     }
 
+    .input-usuario {
+        margin-top: 1em;
+    }
+
     .input-section {
         justify-content: stretch;
         margin-bottom: 3em;
         padding: 10px;
         height: auto; /* Cambia "2%" por "auto" para que el alto se ajuste automáticamente */
-        border-radius: 4em 4em 1em 1em;
+        /* border-radius: 4em 4em 1em 1em; */
     }
 
     .container-count {
         margin-top: 3em;
     }
 
+    .mensaje {
+        margin-top: 1.5em;
+    }
+
 
     .input-name {
-        border-radius: 25px 0 0 0;
+        /* border-radius: 25px 0 0 0; */
     }
 
     .input-wrapper {
