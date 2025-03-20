@@ -1,6 +1,8 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let amigos = [];
 let lista = document.getElementById("listaAmigos");
+let modal = document.getElementById("myDialog");
+
 
 function agregarAmigo() {
   let nombres = document.getElementById("amigo").value;
@@ -22,7 +24,6 @@ function agregarAmigo() {
     document.getElementById("count").innerHTML = amigos.length;
     document.getElementById("container-count").style.display = "block";
   }
-  mostrarAmigos();
 }
 
 function mostrarAmigos() {
@@ -47,18 +48,41 @@ function sortearAmigo() {
   if (amigos.length === 0) {
     alert("No hay amigos para sortear");
     return;
-  } else {
-    lista.display = "none";
-    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    document.getElementById(
-      "resultado"
-    ).innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
-    amigos = amigos.filter(amigo => amigo !== amigoSorteado);
-    document.getElementById("count").innerHTML = amigos.length
-    mostrarAmigos();
+  }
+
+  // Actualiza el valor de usuario dinámicamente
+  let usuario = document.getElementById("usuario").value;
+
+  // Verifica si el usuario está vacío
+  if (!usuario) {
+    alert("Por favor, ingresa un nombre antes de sortear.");
+    return;
+    
+
   }
   
 
+  // Selecciona un amigo al azar
+  let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+
+  // Verifica que el amigo sorteado no sea el usuario
+  if (amigoSorteado === usuario) {
+    alert("No puedes ser tu propio amigo secreto. Intenta nuevamente.");
+    return;
+  }
+
+  // Oculta la lista (si es necesario)
+  lista.style.display = "none";
+
+  // Muestra el resultado del sorteo
+  document.getElementById("resultado").innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
+
+  // Elimina el amigo sorteado de la lista
+  amigos = amigos.filter(amigo => amigo !== amigoSorteado);
+
+  // Actualiza el contador y la lista de amigos
+  document.getElementById("count").innerHTML = amigos.length;
+  mostrarAmigos();
 }
 
 function limpiarLista() {
@@ -74,3 +98,13 @@ function reiniciar() {
   document.getElementById("container-count").style.display = "none";
   limpiarLista();
 }
+
+function usuario() {
+  let usuario = document.getElementById("usuario").value;
+  console.log(usuario);
+  return usuario;
+}
+
+
+
+

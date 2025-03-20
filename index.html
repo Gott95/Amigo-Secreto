@@ -22,16 +22,24 @@
                 <h1 class="main-title-secreto">igo Secreto</h1>
             </div>
             
-        </header>
+        </header>  
         
-        <section class="input-section">
-            <h2 class="section-title">Inserte los nombres<br>de los participantes</h2>
-            <h2 class="section-title1"></h2>
+        <section class="input-section">  
+            
+            <div class="input-usuario">
+                <input type="text" id="usuario" class="inputUsuario" placeholder="Nombre">
+                <button class="buttonUsuario" onclick="usuario()">
+                    <i class="bi bi-send"></i>
+                </button>
+            </div>
+            <p id="mensaje" class="mensaje">Nota: Agregue el nombre del jugador en turno</p>
+            <h2 class="section-title">Inserte los participantes</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="agregarAmigo()">
-                    <img class="icon-add" src="assets/add.png" alt="Ícono para agregar">
-                     </button>
+                <button class="buttonUsuario" onclick="agregarAmigo()">
+                    <i class="bi bi-patch-plus"></i>
+                    <!-- <img class="icon-add" src="assets/add.png" alt="Ícono para agregar"> -->
+                </button>
             </div>
             <div class="container-count" id="container-count" onclick="mostrarLista()">
                 <h2 id="count" class="count"></h2>

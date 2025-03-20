@@ -112,19 +112,50 @@ body {
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+.buttonUsuario {
+    padding: 0.6em;
+    border-radius: 2rem;
+    height: 3em;
+    width: 3em;
+    background-color: var(--color-button);
+    color: var(--color-button);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    margin-left: -25px;
+}
+
+.buttonUsuario:hover {
+    background-color: var(--color-button-hover);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transform: scale(1);
+    scale: 1.1;
+}
+
+.inputUsuario {
+    padding: 0.6em;
+    border-radius: 1em;
+}
+
+i {
+    font-size: 1.4em;
+    color: #000;
+}
+
+
 .input-wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    margin-top: 20px;
 }
 
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -146,21 +177,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
-button {
-    padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    border: 2px solid #000;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-}
 
 .button-add {
     background-color: var(--color-button);
     color: var(--color-text);
-    border-radius: 0 25px 25px 0;
+    border-radius: 2rem;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+    margin-left: -25px;
 }
 
 .button-add:hover {
@@ -185,7 +211,7 @@ button {
     font-size: 16px;
     background-color: var(--color-text);
     cursor: pointer;
-    display: none;
+    visibility: hidden;
 }
 
 .count {
