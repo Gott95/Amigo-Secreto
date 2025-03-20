@@ -135,9 +135,18 @@ body {
     scale: 1.1;
 }
 
+.buttonUsuario:focus {
+    outline: none;
+}
+
+.input-usuario {
+    display: flex;
+    align-items: center;
+}
 .inputUsuario {
     padding: 0.6em;
     border-radius: 1em;
+    
 }
 
 i {
@@ -149,8 +158,9 @@ i {
 .input-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 600px;;
 }
 
 .input-name {
@@ -168,7 +178,7 @@ i {
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
-    padding: 10px 15px;
+    padding: 10px 0 0 10px;
     font-size: 16px;
     border: 2px solid #333;
     border-right: none;

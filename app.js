@@ -22,7 +22,7 @@ function agregarAmigo() {
     document.getElementById("amigo").value = "";
     mostrarAmigos();
     document.getElementById("count").innerHTML = amigos.length;
-    document.getElementById("container-count").style.display = "block";
+    document.getElementById("container-count").style.visibility = "visible";
   }
 }
 
@@ -96,6 +96,7 @@ function reiniciar() {
   document.getElementById("resultado").innerHTML = "";
   document.getElementById("count").innerHTML = "";
   document.getElementById("container-count").style.display = "none";
+  document.getElementById("usuario").value = "";
   limpiarLista();
 }
 
